@@ -12,6 +12,11 @@ CREATE TABLE rating (
     rating FLOAT NOT NULL
 );
 
+-- Insert sample data into the rating table
+INSERT INTO rating (movie_name, rating) VALUES
+('Inception', 8.8),
+('The Matrix', 8.7),
+('Interstellar', 8.6);
 
 
 -- Insert a new movie only if it has a corresponding rating
