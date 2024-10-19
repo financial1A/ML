@@ -101,3 +101,9 @@ if __name__ == "__main__":
 
     # Clean up the connection
     connection.close()
+
+
+
+
+
+#pip install mysql-connector-python
